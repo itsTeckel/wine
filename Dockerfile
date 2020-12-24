@@ -15,6 +15,8 @@ RUN apt-get update && \
       winbind \
       xvfb \
       cabextract \
+      x11-apps \
+      graphicsmagick-imagemagick-compat \
       && \
     apt-get -y clean && \
     rm -rf \
